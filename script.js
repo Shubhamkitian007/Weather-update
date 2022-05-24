@@ -6,7 +6,7 @@ button.addEventListener('click', () => {
     const cityInput = inputTxt.value;
     console.log(cityInput);
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=382c22dd35577bcd6b412ab42e903705`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=382c22dd35577bcd6b412ab42e903705`)
     .then(response => response.json())
     .then(data => {
 // console.log(data);
