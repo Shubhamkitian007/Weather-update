@@ -22,11 +22,6 @@ button.addEventListener('click', () => {
             localStorage.setItem("weather1", tempValue);
             console.log(tempValue);
         }, 10000);
-        
-
-
-
-
 
         var weather = 
         showData.innerHTML = `
